@@ -20,7 +20,10 @@ const gradStudents = [{
   name: 'Nick Vincent',
   link: 'https://www.linkedin.com/in/nicholas-vincent-93594a81/',
   image: '/static/nick_vincents_face.jpg',
+}, {
+  name: 'Sara Milkes',
 }];
+
 
 const undergradStudents = [{
   name: 'Bodhi Alarcon',
@@ -45,6 +48,8 @@ PSA Research is a research group at Northwestern University that studies Human-C
 const news = [
   'June 2017: Brent Hecht selected as Chair of ACM Future of Computing Academcy',
   'May 2017: Three CHI Paper Presentations!',
+  'Feb 2017: CSCW Presentation: Addressing article-as-a-concept assumption',
+  'Jan 2017: Three CHI Papers Accepted!',
 ];
 
 const projects = [{
@@ -56,9 +61,9 @@ const projects = [{
   image: '/static/routing_externalities.png',
   description: 'In this project, we identified externalities that arise when routing algorithms change behavior.',
 }, {
-  name: 'Tweet Geolocation',
-  image: '/static/geolocation.png',
-  description: 'We studied the biases present in both text and network based Tweet geolocation algorithms',
+  name: 'Death by GPS',
+  image: '/static/deathbygps.png',
+  description: 'We studied the dangerous effects of GPS failures.',
 }];
 
 const publications = [{
