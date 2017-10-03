@@ -20,8 +20,6 @@ const gradStudents = [{
   name: 'Nick Vincent',
   link: 'https://www.linkedin.com/in/nicholas-vincent-93594a81/',
   image: '/static/nick_vincents_face.jpg',
-}, {
-  name: 'Sara Milkes',
 }];
 
 
@@ -31,6 +29,8 @@ const undergradStudents = [{
   name: 'Patrick Sheehan',
 }, {
   name: 'Rainy Che',
+}, {
+  name: 'Sara Milkes',
 }];
 
 const collaborators = [{
