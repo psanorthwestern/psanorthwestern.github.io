@@ -167,7 +167,7 @@ const publications = [{
   ],
 }, {
   bibtex: `@inproceedings{johnson2017effect,
-    title={The Effect of Population and},
+    title={The Effect of Population and "Structural" Biases on Social Media-based Algorithms -- A Case Study in Geolocation Inference Across the Urban-Rural Spectrum.},
     author={Johnson, Isaac and McMahon, Connor and Sch{\"o}ning, Johannes and Hecht, Brent},
     booktitle={Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
     pages={1167--1178},
