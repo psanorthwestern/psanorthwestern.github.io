@@ -302,7 +302,7 @@ const publications = [{
     display: 'Slides',
   },],
   specialCitation: `
-  McMahon, C.*, Johnson, I.*, and Hecht, B. The Substantial Interdependence of Wikipedia and Google - A Case Study on the Relationship between Peer Production Communities and Intelligent Technologies. AAAI International Conference on Web and Social Media 2017. * Indicates co-first authors, ** Indicates co-Principal Investigators.
+  McMahon, C.*, Johnson, I.*, and Hecht, B. The Substantial Interdependence of Wikipedia and Google - A Case Study on the Relationship between Peer Production Communities and Intelligent Technologies. AAAI International Conference on Web and Social Media 2017. * Indicates co-first authors
   `,
 }, {
   bibtex: `@inproceedings{miller2017understanding,
