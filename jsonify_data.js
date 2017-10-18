@@ -138,6 +138,7 @@ const publications = [{
     to: 'https://docs.google.com/presentation/d/1wphBz3Z_kcXSjDtxeEfhU-hq5zWSvUir0VCUjzsSO_Q/edit?usp=sharing',
     display: 'Slides (Ubicomp 2017)',
   }],
+  specialShorthand: 'Ubicomp 2017',
 }, {
   bibtex: `@article{li2017accessibilityfail,
     title={\# accessibilityfail: Exploring the potential of using social media posts to identify accessibility problems},
@@ -496,6 +497,7 @@ const publications = [{
     to: 'https://drive.google.com/file/d/0B9n3jDBR7l_6Smh2dzdVbkFtZW8/view?usp=sharing',
     display: 'Slides',
   }],
+  specialShorthand: '',
 }, {
   bibtex: `@inproceedings{samsonov2015automatic,
     title={From Automatic Sign Detection To Space Usage Rules Mining For Autonomous Driving},
