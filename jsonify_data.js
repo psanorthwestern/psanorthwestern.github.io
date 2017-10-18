@@ -1028,7 +1028,8 @@ const data = {
   collaborators,
   about,
   news,
-  projects
+  projects,
+  opportunitiesText,
 };
 
 fs.writeFile("data.json", JSON.stringify(data), function (err) {
