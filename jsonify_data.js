@@ -49,7 +49,7 @@ PSA Research is a research group at Northwestern University that studies Human-C
 `;
 
 const opportunitiesText = `
-We are currently looking for students excited about doing work at the intersection of human-computer interaction, spatial computing, and social computing. Undergraduate and graduate students who would like to join PSA Research should feel free to e-mail Brent directly. Please include a little bit about yourself (e.g. CV/resume, any past research experience, skills) and something about your research interests.`;
+We are currently looking for students excited about doing work at the intersection of human-computer interaction, spatial computing, and social computing. Undergraduate and graduate students who would like to join PSA Research should feel free to e-mail Brent directly. Please include a little bit about yourself (e.g., CV/resume, any past research experience, skills) and something about your research interests.`;
 
 const news = [
   'June 2017: Brent Hecht selected as Chair of ACM Future of Computing Academcy',
@@ -61,15 +61,15 @@ const news = [
 const projects = [{
   name: 'Tweet Geolocation',
   image: '/static/geolocation.png',
-  description: 'We studied the biases present in both text and network based Tweet geolocation algorithms.',
+  description: 'Bias in social-media-based algorithms derives not just from population biases in the underlying data but also from structural biases in the design of algorithms.',
 }, {
   name: 'Routing Algorithmic Externalities',
   image: '/static/routing_externalities.png',
-  description: 'In this project, we identified externalities that arise when routing algorithms change behavior.',
+  description: 'Changes to fastest-path vehicle routing (e.g. incorporating notions of scenic-ness, safety, or simplicity) could have unintended side-effects both individually on the routes and in aggregate on neighborhoods.',
 }, {
   name: 'Death by GPS',
   image: '/static/deathbygps.png',
-  description: 'We studied the dangerous effects of GPS failures.',
+  description: 'Driving accidents attributed to problems with GPS navigation derive from a wide variety of sources such as the failure to recognize driver context in suggesting routes and map-matching algorithms.',
 }];
 
 const publications = [{
