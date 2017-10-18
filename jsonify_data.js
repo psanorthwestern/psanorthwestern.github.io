@@ -204,6 +204,9 @@ const publications = [{
     to: 'https://github.com/PokemonGoCHI17/PokemonGo2017_Field_Survey_Data',
     display: 'Dataset',
   }],
+  specialCitation: `
+  Lin, Y. *, Colley, A.*, Thebault-Spieker, J.*, Häkkilä, J., Nunes, N., Wenig, D., Kuehl, K., Fischman, B., Nisi, V., Runge, N., Degraen, D., Hecht, B.**, Schöning, J**. (2017). The Geography of Pokémon GO: Beneficial and Problematic Effects on Places and Movement. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2017). New York : ACM Press. * Indicates co-first authors, ** Indicates co-Principal Investigators.
+  `,
 }, {
   bibtex: `@inproceedings{johnson2017effect,
     title={The Effect of Population and "Structural" Biases on Social Media-based Algorithms -- A Case Study in Geolocation Inference Across the Urban-Rural Spectrum.},
@@ -298,6 +301,9 @@ const publications = [{
     to: 'https://drive.google.com/open?id=0B9n3jDBR7l_6c2tPMzNMaE1Fejg',
     display: 'Slides',
   },],
+  specialCitation: `
+  McMahon, C.*, Johnson, I.*, and Hecht, B. The Substantial Interdependence of Wikipedia and Google - A Case Study on the Relationship between Peer Production Communities and Intelligent Technologies. AAAI International Conference on Web and Social Media 2017. * Indicates co-first authors, ** Indicates co-Principal Investigators.
+  `,
 }, {
   bibtex: `@inproceedings{miller2017understanding,
     title={Understanding Emoji Ambiguity in Context: The Role of Text in Emoji-Related Miscommunication.},
