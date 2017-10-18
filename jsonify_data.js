@@ -78,12 +78,29 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/mobilehci2017_pharos.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/mobilehci2017_pharos.pdf',
+    display: 'PDF',
+  }, ],
+}, {
+  bibtex: `@inproceedings{lin2017understanding,
+    title={Understanding: A Systematic Study of Catastrophic Incidents Associated with Personal Navigation Technologies},
+    author={Lin, Allen Yilun and Kuehl, Kate and Sch{\"o}ning, Johannes and Hecht, Brent},
+    booktitle={Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
+    pages={1154--1166},
+    year={2017},
+    organization={ACM}
+  }`,
+  links: [{
+    to: 'http://brenthecht.com/publications/chi17_deathbygps.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://cheetah90.github.io/gps_failure/',
+    display: 'Interactive Map',
+  }, {
+    to: 'https://github.com/cheetah90/gps_failure',
+    display: 'Dataset',
+  }],
 }, {
   bibtex: `@article{johnson2017beautiful,
     title={Beautiful… but at What Cost?: An Examination of Externalities in Geographic Vehicle Routing},
@@ -114,12 +131,34 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'https://dl.acm.org/citation.cfm?id=3025737',
-      display: 'PDF (ACM)',
-    },
-  ],
+  links: [{
+    to: 'https://dl.acm.org/citation.cfm?id=3025737',
+    display: 'PDF (ACM)',
+  }, ],
+}, {
+  bibtex: `@article{li2017accessibilityfail,
+    title={\# accessibilityfail: Exploring the potential of using social media posts to identify accessibility problems},
+    author={Li, Hanlin and Brady, Erin},
+    journal={iConference 2017 Proceedings},
+    year={2017},
+    publisher={iSchools}
+  }`,
+  links: [{
+    to: 'https://www.ideals.illinois.edu/bitstream/handle/2142/96777/2.9_99_Li-%23accessibilityFail.pdf?sequence=1&isAllowed=y',
+    display: 'PDF',
+  }, ],
+}, {
+  bibtex: `@inproceedings{twitterPoliticalConflicts2018NotFinal,
+    title={Working toward Empowering a Community: How Immigrant-Focused Nonprofit Organizations Use Twitter during Political Conflicts},
+    author={Li, Hanlin and Dombrowski, Lynn and Brady, Erin},
+    booktitle={Proceedings of the 20th International Conference on Supporting Group Work (GROUP ’18)},
+    year={2018},
+    organization={ACM}
+  }`,
+  links: [{
+    to: '',
+    display: '',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht20172016,
     title={The 2016 US Election and HCI: Towards a Research Agenda},
@@ -129,12 +168,10 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'https://dl.acm.org/citation.cfm?id=3051140',
-      display: 'PDF (ACM)',
-    },
-  ],
+  links: [{
+    to: 'https://dl.acm.org/citation.cfm?id=3051140',
+    display: 'PDF (ACM)',
+  }, ],
 }, {
   bibtex: `@inproceedings{lin2017understanding,
     title={Understanding: A Systematic Study of Catastrophic Incidents Associated with Personal Navigation Technologies},
@@ -144,12 +181,10 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/chi17_deathbygps.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/chi17_deathbygps.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{colley2017geography,
     title={The geography of Pok{\'e}mon GO: beneficial and problematic effects on places and movement},
@@ -159,12 +194,13 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/chi17_geographyofpokemongo.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/chi17_geographyofpokemongo.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://github.com/PokemonGoCHI17/PokemonGo2017_Field_Survey_Data',
+    display: 'Dataset',
+  }],
 }, {
   bibtex: `@inproceedings{johnson2017effect,
     title={The Effect of Population and "Structural" Biases on Social Media-based Algorithms -- A Case Study in Geolocation Inference Across the Urban-Rural Spectrum.},
@@ -174,12 +210,13 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/chi17_urbanruralgeolocationbias.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/chi17_urbanruralgeolocationbias.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://drive.google.com/file/d/0B9n3jDBR7l_6b1ZRNndPZllPVGs/view?usp=sharing',
+    display: 'Slides',
+  }],
 }, {
   bibtex: `@inproceedings{hall2017freedom,
     title={Freedom versus standardization: structured data generation in a peer production community},
@@ -189,12 +226,10 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/chi17_freedomstandardization_openstreetmap.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/chi17_freedomstandardization_openstreetmap.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{thebault2017toward,
     title={Toward a Geographic Understanding of the Sharing Economy: Systemic Biases in UberX and TaskRabbit},
@@ -206,12 +241,13 @@ const publications = [{
     year={2017},
     publisher={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/tochi_preprint_sharingeconomygeography.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/tochi_preprint_sharingeconomygeography.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://github.com/jtsmn/uber_data_spatial_durbin_model',
+    display: 'Code',
+  }],
 }, {
   bibtex: `@inproceedings{sen2017cartograph,
     title={Cartograph: Unlocking Spatial Visualization Through Semantic Enhancement},
@@ -221,12 +257,10 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/iui_cartograph.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/iui_cartograph.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{lin2017problematizing,
     title={Problematizing and Addressing the Article-as-Concept Assumption in Wikipedia},
@@ -236,12 +270,13 @@ const publications = [{
     year={2017},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/cscw17_subarticles.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/cscw17_subarticles.pdf',
+    display: 'PDF',
+  }, {
+    to: 'http://z.umn.edu/WikiSubarticles',
+    display: 'Dataset/Code',
+  }],
 }, {
   bibtex: `@inproceedings{mcmahon2017substantial,
     title={The Substantial Interdependence of Wikipedia and Google: A Case Study on the Relationship Between Peer Production Communities and Information Technologies.},
@@ -250,12 +285,16 @@ const publications = [{
     pages={142--151},
     year={2017}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/icwsm17_googlewikipedia.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/icwsm17_googlewikipedia.pdf',
+    display: 'PDF',
+  }, {
+    to: 'http://www.psacomputing.org/codeanddata/icwsm2017/mcmahonjohnson2017_extension.zip',
+    display: 'Chrome Extension Code',
+  },{
+    to: 'https://drive.google.com/open?id=0B9n3jDBR7l_6c2tPMzNMaE1Fejg',
+    display: 'Slides',
+  },],
 }, {
   bibtex: `@inproceedings{miller2017understanding,
     title={Understanding Emoji Ambiguity in Context: The Role of Text in Emoji-Related Miscommunication.},
@@ -264,12 +303,10 @@ const publications = [{
     pages={152--161},
     year={2017}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/icwsm17_emojitext.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/icwsm17_emojitext.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{wenig2016scrollinghome,
     title={ScrollingHome: bringing image-based indoor navigation to smartwatches},
@@ -279,12 +316,10 @@ const publications = [{
     year={2016},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/ScrollingHome_MobileHCI_2016.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/ScrollingHome_MobileHCI_2016.pdf',
+    display: 'PDF',
+  }],
 }, {
   bibtex: `@inproceedings{johnson2016geography,
     title={The geography and importance of localness in geotagged social media},
@@ -294,12 +329,16 @@ const publications = [{
     year={2016},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/CHI2016_geogoflocalness.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/CHI2016_geogoflocalness.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://github.com/joh12041/chi-2016-localness',
+    display: 'Datasets',
+  }, {
+    to: 'https://drive.google.com/file/d/0B9n3jDBR7l_6SUlrWHhCc3BkNzQ/view?usp=sharing',
+    display: 'Slides',
+  }],
 }, {
   bibtex: `@inproceedings{johnson2016not,
     title={Not at home on the range: Peer production and the urban/rural divide},
@@ -309,12 +348,19 @@ const publications = [{
     year={2016},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/CHI2016_ruralurbanpeerproduction.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/CHI2016_ruralurbanpeerproduction.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://github.com/joh12041/chi-2016-peerproduction-urbanrural',
+    display: 'Code',
+  },{
+    to: 'https://drive.google.com/file/d/0B9n3jDBR7l_6SkMzMEVLT1EtRnM/view',
+    display: 'Slides',
+  },{
+    to: 'http://www-users.cs.umn.edu/~joh12041/UrbanRuralPeerProductionMaps/VGI_Bias_Maps.html',
+    display: 'Maps/Demo',
+  },],
 }, {
   bibtex: `@inproceedings{soll2016helping,
     title={Helping computers understand geographically-bound activity restrictions},
@@ -324,12 +370,10 @@ const publications = [{
     year={2016},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/CHI2016_SURdetection.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/CHI2016_SURdetection.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{miller2016blissfully,
     title={Blissfully happy” or “ready to fight”: Varying Interpretations of Emoji},
@@ -338,12 +382,16 @@ const publications = [{
     volume={2016},
     year={2016}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/ICWSM2016_emoji.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/ICWSM2016_emoji.pdf',
+    display: 'PDF',
+  }, {
+    to: 'http://grouplens.org/blog/investigating-the-potential-for-miscommunication-using-emoji/',
+    display: 'Blog Post',
+  }, {
+    to: 'http://www.icwsm.org/2016/datasets/datasets/',
+    display: 'Datasets',
+  }],
 }, {
   bibtex: `@article{hecht2015local,
     title={How Local Is User-Generated Content? A 9,000+-Word Essay on Answering a Five-Word Research Question},
@@ -353,12 +401,10 @@ const publications = [{
     year={2015},
     publisher={MIT Press}
   }`,
-  links: [
-    {
-      to: 'https://books.google.com/books?hl=en&lr=&id=fDlkCwAAQBAJ&oi=fnd&pg=PA173&ots=6FncS1WsYW&sig=tXIWRh9UVzXzChwppz-W4MW1x9A#v=onepage&q&f=false',
-      display: 'Google Books',
-    },
-  ],
+  links: [{
+    to: 'https://books.google.com/books?hl=en&lr=&id=fDlkCwAAQBAJ&oi=fnd&pg=PA173&ots=6FncS1WsYW&sig=tXIWRh9UVzXzChwppz-W4MW1x9A#v=onepage&q&f=false',
+    display: 'Google Books',
+  }, ],
 }, {
   bibtex: `@inproceedings{wenig2015stripemaps,
     title={Stripemaps: Improving map-based pedestrian navigation for smartwatches},
@@ -368,12 +414,10 @@ const publications = [{
     year={2015},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/MobileHCI_2015_StripeMaps.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/MobileHCI_2015_StripeMaps.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{sen2015towards,
     title={Towards Domain-Specific Semantic Relatedness: A Case Study from Geography.},
@@ -382,12 +426,13 @@ const publications = [{
     pages={2362--2370},
     year={2015}
   }`,
-  links: [
-    {
-      to: 'http://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/11438/10991',
-      display: 'PDF (AAAI download link)',
-    },
-  ],
+  links: [{
+    to: 'http://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/11438/10991',
+    display: 'PDF (AAAI download link)',
+  }, {
+    to: 'https://github.com/shilad/geo-sr',
+    display: 'GeoSR Dataset',
+  }],
 }, {
   bibtex: `@inproceedings{warncke2015misalignment,
     title={Misalignment Between Supply and Demand of Quality Content in Peer Production Communities.},
@@ -396,12 +441,10 @@ const publications = [{
     pages={493--502},
     year={2015}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/wikipedia_supplydemandquality_icwsm2015.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/wikipedia_supplydemandquality_icwsm2015.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{samsonov2015user,
     title={A user interface for encoding space usage rules expressed in natural language},
@@ -411,12 +454,10 @@ const publications = [{
     year={2015},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'https://dl.acm.org/citation.cfm?id=2732737',
-      display: 'PDF (ACM)',
-    },
-  ],
+  links: [{
+    to: 'https://dl.acm.org/citation.cfm?id=2732737',
+    display: 'PDF (ACM)',
+  }, ],
 }, {
   bibtex: `@inproceedings{samsonov2015you,
     title={You Can't Smoke Here: Towards Support for Space Usage Rules in Location-aware Technologies},
@@ -426,12 +467,10 @@ const publications = [{
     year={2015},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/bhecht_usagerules_CHI2015.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/bhecht_usagerules_CHI2015.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{johnson2015structural,
     title={Structural causes of bias in crowd-derived geographic information: Towards a holistic understanding},
@@ -441,24 +480,23 @@ const publications = [{
     pages={2016},
     year={2015}
   }`,
-  links: [
-    {
-      to: 'http://www-users.cs.umn.edu/~joh12041/Publications/StructuralCausesBiases_aaaispring2016.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www-users.cs.umn.edu/~joh12041/Publications/StructuralCausesBiases_aaaispring2016.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://drive.google.com/file/d/0B9n3jDBR7l_6Smh2dzdVbkFtZW8/view?usp=sharing',
+    display: 'Slides',
+  }],
 }, {
   bibtex: `@inproceedings{samsonov2015automatic,
     title={From Automatic Sign Detection To Space Usage Rules Mining For Autonomous Driving},
     author={SAMSONOV, Pavel and Hecht, Brent and Sch{\"o}ning, Johannes},
     year={2015}
   }`,
-  links: [
-    {
-      to: 'https://uhdspace.uhasselt.be/dspace/bitstream/1942/19049/1/CHI-2015-Automated-Cars-Workshop-Paper.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'https://uhdspace.uhasselt.be/dspace/bitstream/1942/19049/1/CHI-2015-Automated-Cars-Workshop-Paper.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{sen2015barriers,
     title={Barriers to the localness of volunteered geographic information},
@@ -468,12 +506,19 @@ const publications = [{
     year={2015},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'https://ironholds.org/resources/papers/barriers.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'https://ironholds.org/resources/papers/barriers.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://github.com/shilad/geo-provenance',
+    diplay: 'Geoprovenance Algorithm Code',
+  }, {
+    to: 'https://github.com/shilad/geo-provenance/tree/master/data',
+    display: 'Geoprovenance Evaluation Dataset',
+  }, {
+    to: 'http://shilad.com/localness/index.html',
+    display: 'Interactive version of paper',
+  }],
 }, {
   bibtex: `@inproceedings{thebault2015avoiding,
     title={Avoiding the south side and the suburbs: The geography of mobile crowdsourcing markets},
@@ -483,12 +528,10 @@ const publications = [{
     year={2015},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/MobileCrowdsourcingSES_CSCW2015.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/MobileCrowdsourcingSES_CSCW2015.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{sen2015turkers,
     title={Turkers, scholars, arafat and peace: Cultural communities and algorithmic gold standards},
@@ -498,12 +541,16 @@ const publications = [{
     year={2015},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/goldstandards_CSCW2015.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/goldstandards_CSCW2015.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://github.com/shilad/group-sr/tree/master/pluraSR200',
+    display: 'PluraSR200 Dataset',
+  }, {
+    to: 'http://wikibrainapi.org/',
+    display: 'SR Library',
+  }]
 }, {
   bibtex: `@inproceedings{warncke2015success,
     title={The success and failure of quality improvement projects in peer production communities},
@@ -513,12 +560,10 @@ const publications = [{
     year={2015},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/qualityimprovement_cscw2015.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/qualityimprovement_cscw2015.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{hecht2014tale,
     title={A Tale of Cities: Urban Biases in Volunteered Geographic Information.},
@@ -528,12 +573,13 @@ const publications = [{
     pages={197--205},
     year={2014}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/bhecht_icwsm2014_ruralurban.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/bhecht_icwsm2014_ruralurban.pdf',
+    display: 'PDF',
+  }, {
+    to: 'http://crowdresearch.org/blog/?p=8631',
+    display: 'Blog Post',
+  }],
 }, {
   bibtex: `@inproceedings{hecht2014crash,
     title={A crash course in modern geography for HCI researchers and practitioners},
@@ -543,12 +589,10 @@ const publications = [{
     year={2014},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://dl.acm.org/citation.cfm?id=2567824',
-      display: 'PDF (ACM)',
-    },
-  ],
+  links: [{
+    to: 'http://dl.acm.org/citation.cfm?id=2567824',
+    display: 'PDF (ACM)',
+  }, ],
 }, {
   bibtex: `@inproceedings{gao2014newsviews,
     title={NewsViews: an automated pipeline for creating custom geovisualizations for news},
@@ -558,12 +602,10 @@ const publications = [{
     year={2014},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.nickdiakopoulos.com/wp-content/uploads/2011/07/NewsViews_20140112_CR.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.nickdiakopoulos.com/wp-content/uploads/2011/07/NewsViews_20140112_CR.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{sen2014wikibrain,
     title={Wikibrain: democratizing computation on wikipedia},
@@ -573,12 +615,13 @@ const publications = [{
     year={2014},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/WikiBrain-WikiSym2014.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/WikiBrain-WikiSym2014.pdf',
+    display: 'PDF',
+  }, {
+    to: 'http://www.wikibrainapi.org/',
+    display: 'API Website',
+  }],
 }, {
   bibtex: `@inproceedings{oeldorf2014search,
     title={To search or to ask: the routing of information needs between traditional search engines and social networks},
@@ -588,12 +631,10 @@ const publications = [{
     year={2014},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/cscw2014_statusmessageqavssearch.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/cscw2014_statusmessageqavssearch.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{stockx2014subwayps,
     title={SubwayPS: towards smartphone positioning in underground public transportation systems},
@@ -603,12 +644,10 @@ const publications = [{
     year={2014},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'https://pdfs.semanticscholar.org/9c2d/60bfcc6ee509fdefae9b737268a63f6d1e73.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'https://pdfs.semanticscholar.org/9c2d/60bfcc6ee509fdefae9b737268a63f6d1e73.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{li2014leveraging,
     title={Leveraging advances in natural language processing to better understand Tobler's first law of geography},
@@ -618,12 +657,10 @@ const publications = [{
     year={2014},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/bhecht_sigspatial2014_toblerslaw.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/bhecht_sigspatial2014_toblerslaw.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{wang2014designing,
     title={Designing Better Location Fields in User Profiles},
@@ -633,12 +670,10 @@ const publications = [{
     year={2014},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/bhecht_group2014_locationfield.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/bhecht_group2014_locationfield.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{schoning2014informing,
     title={Informing online and mobile map design with the collective wisdom of cartographers},
@@ -648,12 +683,10 @@ const publications = [{
     year={2014},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/bhecht_dis2014_localcartography.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/bhecht_dis2014_localcartography.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{ackerman2013social,
     title={Social media question asking workshop},
@@ -663,12 +696,10 @@ const publications = [{
     year={2013},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'https://dl.acm.org/citation.cfm?id=2442027',
-      display: 'PDF (ACM)',
-    },
-  ],
+  links: [{
+    to: 'https://dl.acm.org/citation.cfm?id=2442027',
+    display: 'PDF (ACM)',
+  }, ],
 }, {
   bibtex: `@phdthesis{hecht2013mining,
     title={The mining and application of diverse cultural perspectives in user-generated content},
@@ -676,12 +707,10 @@ const publications = [{
     year={2013},
     school={Northwestern University}
   }`,
-  links: [
-    {
-      to: 'https://dl.acm.org/citation.cfm?id=2519359',
-      display: 'PDF (ACM)',
-    },
-  ],
+  links: [{
+    to: 'https://dl.acm.org/citation.cfm?id=2519359',
+    display: 'PDF (ACM)',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht2012explanatory,
     title={Explanatory semantic relatedness and explicit spatialization for exploratory search},
@@ -691,12 +720,10 @@ const publications = [{
     year={2012},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://dgergle.soc.northwestern.edu/resources/HechtEtAl_ExplicitSpatialization-Atlasify_SIGIR2012.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://dgergle.soc.northwestern.edu/resources/HechtEtAl_ExplicitSpatialization-Atlasify_SIGIR2012.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{hecht2012searchbuddies,
     title={SearchBuddies: Bringing Search Engines into the Conversation.},
@@ -707,12 +734,10 @@ const publications = [{
     pages={2},
     year={2012}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/bhecht_icwsm2012_searchbuddies.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/bhecht_icwsm2012_searchbuddies.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{bao2012omnipedia,
     title={Omnipedia: bridging the wikipedia language gap},
@@ -722,12 +747,10 @@ const publications = [{
     year={2012},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/papers/bhecht_CHI2012_omnipedia.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/papers/bhecht_CHI2012_omnipedia.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{bohmer2011falling,
     title={Falling asleep with Angry Birds, Facebook and Kindle: a large scale study on mobile application usage},
@@ -737,12 +760,10 @@ const publications = [{
     year={2011},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/bhecht_mobilehci2011_sleepbirds.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/bhecht_mobilehci2011_sleepbirds.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@misc{morris2011designating,
     title={Designating automated agents as friends in a social network service},
@@ -752,12 +773,10 @@ const publications = [{
     publisher={Google Patents},
     note={US Patent App. 13/162,608}
   }`,
-  links: [
-    {
-      to: 'https://www.google.com/patents/US20110252108',
-      display: 'Google Patents',
-    },
-  ],
+  links: [{
+    to: 'https://www.google.com/patents/US20110252108',
+    display: 'Google Patents',
+  }, ],
   type: 'patent',
 }, {
   bibtex: `@inproceedings{hecht2011geographic,
@@ -768,12 +787,10 @@ const publications = [{
     year={2011},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/papers/bhecht_geohci2013.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/papers/bhecht_geohci2013.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht2011tweets,
     title={Tweets from Justin Bieber's heart: the dynamics of the location field in user profiles},
@@ -783,12 +800,10 @@ const publications = [{
     year={2011},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/bhecht_chi2011_location.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/bhecht_chi2011_location.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{hecht2011beginner,
     title={A beginner’s guide to geographic virtual communities research},
@@ -796,12 +811,10 @@ const publications = [{
     journal={IGI Global},
     year={2011}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/papers/bhecht_GeographicalVCResearch_preprint.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/papers/bhecht_GeographicalVCResearch_preprint.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht2010tower,
     title={The tower of Babel meets web 2.0: user-generated content and its applications in a multilingual context},
@@ -811,12 +824,10 @@ const publications = [{
     year={2010},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/publications/bhecht_chi2010_towerofbabel.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/publications/bhecht_chi2010_towerofbabel.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht2010localness,
     title={On the localness of user-generated content},
@@ -826,12 +837,10 @@ const publications = [{
     year={2010},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/papers/bhecht_cscw2010_localness.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/papers/bhecht_cscw2010_localness.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht2009measuring,
     title={Measuring self-focus bias in community-maintained knowledge repositories},
@@ -841,12 +850,10 @@ const publications = [{
     year={2009},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/papers/bhecht_CandT2009_selffocusbias.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/papers/bhecht_CandT2009_selffocusbias.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{hecht2009terabytes,
     title={Terabytes of Tobler: evaluating the first law in a massive, domain-neutral representation of world knowledge},
@@ -856,12 +863,10 @@ const publications = [{
     year={2009},
     publisher={Springer}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/papers/cosit2009.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/papers/cosit2009.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{schoning2008evaluating,
     title={Evaluating automatically generated location-based stories for tourists},
@@ -871,12 +876,10 @@ const publications = [{
     year={2008},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'https://dl.acm.org/citation.cfm?id=1358787',
-      display: 'PDF (ACM)',
-    },
-  ],
+  links: [{
+    to: 'https://dl.acm.org/citation.cfm?id=1358787',
+    display: 'PDF (ACM)',
+  }, ],
 }, {
   bibtex: `@inproceedings{schoning2008improving,
     title={Improving interaction with virtual globes through spatial thinking: helping users ask why?},
@@ -886,12 +889,10 @@ const publications = [{
     year={2008},
     organization={ACM}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/papers/iui2008.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/papers/iui2008.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{hecht2008mapping,
     title={Mapping the zeitgeist},
@@ -899,12 +900,10 @@ const publications = [{
     journal={GIScience’08 (Extended Abstracts)},
     year={2008}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/papers/giscience2008.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/papers/giscience2008.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{hecht2008geosr,
     title={GeoSR: Geographically explore semantic relations in world knowledge},
@@ -914,12 +913,10 @@ const publications = [{
     year={2008},
     publisher={Springer}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/papers/agile2008.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/papers/agile2008.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{schoning2007wikear,
     title={WikEar--Automatically generated location-based audio stories between public city maps},
@@ -928,12 +925,10 @@ const publications = [{
     pages={128--131},
     year={2007}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/bhecht_ubicomp2007_wikear.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/bhecht_ubicomp2007_wikear.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht2007wikeye,
     title={Wikeye--using magic lenses to explore georeferenced Wikipedia content},
@@ -941,24 +936,20 @@ const publications = [{
     booktitle={Proceedings of the 3rd International Workshop on Pervasive Mobile Interaction Devices (PERMID)},
     year={2007}
   }`,
-  links: [
-    {
-      to: 'http://brenthecht.com/papers/bhecht_permid2007_wikeye.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://brenthecht.com/papers/bhecht_permid2007_wikeye.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@misc{hecht2007wikipedia,
     title={Wikipedia volunteered geographic information},
     author={Hecht, Brent},
     year={2007}
   }`,
-  links: [
-    {
-      to: 'http://www.ncgia.ucsb.edu/projects/vgi/docs/position/Hecht_paper.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.ncgia.ucsb.edu/projects/vgi/docs/position/Hecht_paper.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht2007minotour,
     title={Minotour: A location-aware mobile tour application that weaves a spatial tale from wikipedia},
@@ -966,12 +957,10 @@ const publications = [{
     booktitle={Proceedings of the 2007 Meeting of The AAG},
     year={2007}
   }`,
-  links: [
-    {
-      to: '',
-      display: '',
-    },
-  ],
+  links: [{
+    to: '',
+    display: '',
+  }, ],
 }, {
   bibtex: `@phdthesis{hecht2007utilizing,
     title={Utilizing Wikipedia as a Spatiotemporal Knowledge Repository},
@@ -979,12 +968,10 @@ const publications = [{
     year={2007},
     school={University of California, Santa Barbara}
   }`,
-  links: [
-    {
-      to: '',
-      display: '',
-    },
-  ],
+  links: [{
+    to: '',
+    display: '',
+  }, ],
 }, {
   bibtex: `@inproceedings{hecht2007generating,
     title={Generating educational tourism narratives from wikipedia},
@@ -993,12 +980,10 @@ const publications = [{
     pages={37--44},
     year={2007}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/papers/bhecht_aaaiint2007_narrative.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/papers/bhecht_aaaiint2007_narrative.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@inproceedings{rohs2007towards,
     title={Towards real-time markerless tracking of magic lenses on paper maps},
@@ -1006,56 +991,56 @@ const publications = [{
     booktitle={Adjunct Proceedings of the 5th Intl. Conference on Pervasive Computing (Pervasive), Late Breaking Results},
     year={2007}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/bhecht_pervasive2007_markerless.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/bhecht_pervasive2007_markerless.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{hechtrole,
     title={The Role of Human Geography in Collective Intelligence},
     author={HECHT, BRENT and TERVEEN, LOREN}
   }`,
-  links: [
-    {
-      to: 'http://www.brenthecht.com/publications/ci2017_humangeography.pdf',
-      display: 'PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/ci2017_humangeography.pdf',
+    display: 'PDF',
+  }, ],
 }, {
   bibtex: `@article{klein2017quality,
     title={Quality Standards, Service Orientation, and Power in Airbnb and Couchsurfing},
     author={KLEIN, MAXIMILIAN and ZHAO, JINHAO and NI, JIAJUN and JOHNSON, ISAAC and HILL, BENJAMIN MAKO and ZHU, HAIYI},
     year={2017}
   }`,
-  links: [
-    {
-      to: 'http://www-users.cs.umn.edu/~joh12041/Publications/MoneyAndTheSharingEconomy.pdf',
-      display: 'Preprint PDF',
-    },
-  ],
+  links: [{
+    to: 'http://www-users.cs.umn.edu/~joh12041/Publications/MoneyAndTheSharingEconomy.pdf',
+    display: 'Preprint PDF',
+  }, ],
 }];
 
 const fs = require('fs');
 
 const data = {
-  faculty, gradStudents, undergradStudents, collaborators, about, news, projects
+  faculty,
+  gradStudents,
+  undergradStudents,
+  collaborators,
+  about,
+  news,
+  projects
 };
 
-fs.writeFile("data.json", JSON.stringify(data), function(err) {
-  if(err) {
-      return console.log(err);
+fs.writeFile("data.json", JSON.stringify(data), function (err) {
+  if (err) {
+    return console.log(err);
   }
 
   console.log("Data file was saved!");
-}); 
+});
 
 
-fs.writeFile("publications.json", JSON.stringify(publications), function(err) {
-  if(err) {
-      return console.log(err);
+fs.writeFile("publications.json", JSON.stringify(publications), function (err) {
+  if (err) {
+    return console.log(err);
   }
 
   console.log("Publications file was saved!");
-}); 
+});
