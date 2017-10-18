@@ -18,7 +18,7 @@ const gradStudents = [{
   image: '/static/hanlin1.jpg',
 }, {
   name: 'Nick Vincent',
-  link: 'https://www.nickmvincent.com',
+  link: 'http://www.nickmvincent.com',
   image: '/static/nick_vincents_face.jpg',
 }];
 
