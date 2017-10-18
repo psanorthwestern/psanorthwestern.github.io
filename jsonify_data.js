@@ -10,7 +10,7 @@ const gradStudents = [{
   image: '/static/allen1.jpg',
 }, {
   name: 'Isaac Johnson',
-  link: 'http://www-users.cs.umn.edu/~joh12041/',
+  link: 'http:/www.isaacjoh.com',
   image: '/static/isaac1.jpg',
 }, {
   name: 'Hanlin Li',
@@ -18,7 +18,7 @@ const gradStudents = [{
   image: '/static/hanlin1.jpg',
 }, {
   name: 'Nick Vincent',
-  link: 'https://www.linkedin.com/in/nicholas-vincent-93594a81/',
+  link: 'https://www.nickmvincent.com',
   image: '/static/nick_vincents_face.jpg',
 }];
 
@@ -48,6 +48,9 @@ const about = `
 PSA Research is a research group at Northwestern University that studies Human-Computer Interaction (HCI), spatial computing, social computing, and the intersection of all three.
 `;
 
+const opportunitiesText = `
+We are currently looking for students excited about doing work at the intersection of human-computer interaction, spatial computing, and social computing. Undergraduate and graduate students who would like to join PSA Research should feel free to e-mail Brent directly. Please include a little bit about yourself (e.g. CV/resume, any past research experience, skills) and something about your research interests.`;
+
 const news = [
   'June 2017: Brent Hecht selected as Chair of ACM Future of Computing Academcy',
   'May 2017: Three CHI Paper Presentations!',
@@ -70,6 +73,19 @@ const projects = [{
 }];
 
 const publications = [{
+  bibtex: `@inproceedings{johnson2017stranger,
+    title={Stranger Searching in a Strange Land: The Impact of Familiarity on Local Search},
+    author={Johnson, Isaac and Sosik, Victoria Schwanda and Ballard, Kacey},
+    booktitle={Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
+    pages={1726--1730},
+    year={2017},
+    organization={ACM}
+  }`,
+  links: [{
+    to: 'http://www-users.cs.umn.edu/~joh12041/Publications/DiningFamiliarity_CHI2017.pdf',
+    display: 'PDF',
+  }, ],
+}, {
   bibtex: `@inproceedings{wenig2017pharos,
     title={Pharos: improving navigation instructions on smartwatches by including global landmarks},
     author={Wenig, Nina and Wenig, Dirk and Ernst, Steffen and Malaka, Rainer and Hecht, Brent and Sch{\"o}ning, Johannes},
@@ -122,19 +138,6 @@ const publications = [{
     to: 'https://docs.google.com/presentation/d/1wphBz3Z_kcXSjDtxeEfhU-hq5zWSvUir0VCUjzsSO_Q/edit?usp=sharing',
     display: 'Slides (Ubicomp 2017)',
   }],
-}, {
-  bibtex: `@inproceedings{lin2017understanding,
-    title={Understanding: A Systematic Study of Catastrophic Incidents Associated with Personal Navigation Technologies},
-    author={Lin, Allen Yilun and Kuehl, Kate and Sch{\"o}ning, Johannes and Hecht, Brent},
-    booktitle={Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
-    pages={1154--1166},
-    year={2017},
-    organization={ACM}
-  }`,
-  links: [{
-    to: 'https://dl.acm.org/citation.cfm?id=3025737',
-    display: 'PDF (ACM)',
-  }, ],
 }, {
   bibtex: `@article{li2017accessibilityfail,
     title={\# accessibilityfail: Exploring the potential of using social media posts to identify accessibility problems},
