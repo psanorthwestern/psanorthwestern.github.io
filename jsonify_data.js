@@ -85,6 +85,9 @@ const publications = [{
     to: 'http://www-users.cs.umn.edu/~joh12041/Publications/DiningFamiliarity_CHI2017.pdf',
     display: 'PDF',
   }, ],
+  specialCitation: `
+    Johnson, I., Schwanda Sosik, V., and Ballard, K. (2017). Stranger Searching in a Strange Land: The Impact of Familiarity on Local Search. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2017). New York: ACM Press.
+  `,
 }, {
   bibtex: `@inproceedings{wenig2017pharos,
     title={Pharos: improving navigation instructions on smartwatches by including global landmarks},
