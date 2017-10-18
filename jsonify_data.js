@@ -159,10 +159,7 @@ const publications = [{
     year={2018},
     organization={ACM}
   }`,
-  links: [{
-    to: '',
-    display: '',
-  }, ],
+  links: [],
 }, {
   bibtex: `@inproceedings{hecht20172016,
     title={The 2016 US Election and HCI: Towards a Research Agenda},
@@ -968,10 +965,7 @@ const publications = [{
     booktitle={Proceedings of the 2007 Meeting of The AAG},
     year={2007}
   }`,
-  links: [{
-    to: '',
-    display: '',
-  }, ],
+  links: [],
 }, {
   bibtex: `@phdthesis{hecht2007utilizing,
     title={Utilizing Wikipedia as a Spatiotemporal Knowledge Repository},
@@ -979,10 +973,7 @@ const publications = [{
     year={2007},
     school={University of California, Santa Barbara}
   }`,
-  links: [{
-    to: '',
-    display: '',
-  }, ],
+  links: [],
 }, {
   bibtex: `@inproceedings{hecht2007generating,
     title={Generating educational tourism narratives from wikipedia},
