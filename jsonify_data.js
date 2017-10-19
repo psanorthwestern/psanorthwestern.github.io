@@ -103,7 +103,7 @@ const publications = [{
   }, ],
 }, {
   bibtex: `@inproceedings{lin2017understanding,
-    title={Understanding: A Systematic Study of Catastrophic Incidents Associated with Personal Navigation Technologies},
+    title={Understanding "Death by GPS": A Systematic Study of Catastrophic Incidents Associated with Personal Navigation Technologies},
     author={Lin, Allen Yilun and Kuehl, Kate and Sch{\"o}ning, Johannes and Hecht, Brent},
     booktitle={Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
     pages={1154--1166},
@@ -175,19 +175,6 @@ const publications = [{
   links: [{
     to: 'https://dl.acm.org/citation.cfm?id=3051140',
     display: 'PDF (ACM)',
-  }, ],
-}, {
-  bibtex: `@inproceedings{lin2017understanding,
-    title={Understanding: A Systematic Study of Catastrophic Incidents Associated with Personal Navigation Technologies},
-    author={Lin, Allen Yilun and Kuehl, Kate and Sch{\"o}ning, Johannes and Hecht, Brent},
-    booktitle={Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
-    pages={1154--1166},
-    year={2017},
-    organization={ACM}
-  }`,
-  links: [{
-    to: 'http://www.brenthecht.com/publications/chi17_deathbygps.pdf',
-    display: 'PDF',
   }, ],
 }, {
   bibtex: `@inproceedings{colley2017geography,
