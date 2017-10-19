@@ -142,7 +142,7 @@ const publications = [{
     display: 'Slides (Ubicomp 2017)',
   }],
   specialShorthand: 'Ubicomp 2017',
-}, {
+}, /*{
   bibtex: `@article{li2017accessibilityfail,
     title={\# accessibilityfail: Exploring the potential of using social media posts to identify accessibility problems},
     author={Li, Hanlin and Brady, Erin},
@@ -154,7 +154,7 @@ const publications = [{
     to: 'https://www.ideals.illinois.edu/bitstream/handle/2142/96777/2.9_99_Li-%23accessibilityFail.pdf?sequence=1&isAllowed=y',
     display: 'PDF',
   }, ],
-}, {
+},*/ /*{
   bibtex: `@inproceedings{twitterPoliticalConflicts2018NotFinal,
     title={Working toward Empowering a Community: How Immigrant-Focused Nonprofit Organizations Use Twitter during Political Conflicts},
     author={Li, Hanlin and Dombrowski, Lynn and Brady, Erin},
@@ -163,7 +163,7 @@ const publications = [{
     organization={ACM}
   }`,
   links: [],
-}, {
+},*/ {
   bibtex: `@inproceedings{hecht20172016,
     title={The 2016 US Election and HCI: Towards a Research Agenda},
     author={Hecht, Brent and Terveen, Loren and Starbird, Kate and Shneiderman, Ben and Golbeck, Jennifer},
