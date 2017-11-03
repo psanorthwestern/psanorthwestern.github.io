@@ -75,7 +75,7 @@ const projects = [{
 const publications = [{
   bibtex: `@inproceedings{johnson2017stranger,
     title={Stranger Searching in a Strange Land: The Impact of Familiarity on Local Search},
-    author={Johnson, Isaac and Sosik, Victoria Schwanda and Ballard, Kacey},
+    author={Johnson, Isaac and Schwanda Sosik, Victoria and Ballard, Kacey},
     booktitle={Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
     pages={1726--1730},
     year={2017},
@@ -85,9 +85,6 @@ const publications = [{
     to: 'http://www-users.cs.umn.edu/~joh12041/Publications/DiningFamiliarity_CHI2017.pdf',
     display: 'PDF',
   }, ],
-  specialCitation: `
-    Johnson, I., Schwanda Sosik, V., and Ballard, K. (2017). Stranger Searching in a Strange Land: The Impact of Familiarity on Local Search. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2017). New York: ACM Press.
-  `,
 }, {
   bibtex: `@inproceedings{wenig2017pharos,
     title={Pharos: improving navigation instructions on smartwatches by including global landmarks},
@@ -402,6 +399,7 @@ const publications = [{
     to: 'https://books.google.com/books?hl=en&lr=&id=fDlkCwAAQBAJ&oi=fnd&pg=PA173&ots=6FncS1WsYW&sig=tXIWRh9UVzXzChwppz-W4MW1x9A#v=onepage&q&f=false',
     display: 'Google Books',
   }, ],
+    specialShorthand: 'Digital Research Confidential',
 }, {
   bibtex: `@inproceedings{wenig2015stripemaps,
     title={Stripemaps: Improving map-based pedestrian navigation for smartwatches},
@@ -484,17 +482,19 @@ const publications = [{
     to: 'https://drive.google.com/file/d/0B9n3jDBR7l_6Smh2dzdVbkFtZW8/view?usp=sharing',
     display: 'Slides',
   }],
-  specialShorthand: '',
+  specialShorthand: 'OSSM 2016',
 }, {
   bibtex: `@inproceedings{samsonov2015automatic,
     title={From Automatic Sign Detection To Space Usage Rules Mining For Autonomous Driving},
-    author={SAMSONOV, Pavel and Hecht, Brent and Sch{\"o}ning, Johannes},
+    author={Samsonov, Pavel and Hecht, Brent and Sch{\"o}ning, Johannes},
+    journal={Proceedings of the Workshop on Experiencing Autonomous Vehicles},
     year={2015}
   }`,
   links: [{
     to: 'https://uhdspace.uhasselt.be/dspace/bitstream/1942/19049/1/CHI-2015-Automated-Cars-Workshop-Paper.pdf',
     display: 'PDF',
   }, ],
+  specialShorthand: 'CHI 2015',
 }, {
   bibtex: `@inproceedings{sen2015barriers,
     title={Barriers to the localness of volunteered geographic information},
@@ -1008,6 +1008,7 @@ specialShorthand: 'Collective Intelligence 2017',
     to: 'http://www-users.cs.umn.edu/~joh12041/Publications/MoneyAndTheSharingEconomy.pdf',
     display: 'Preprint PDF',
   }, ],
+  specialShorthand: 'CSCW 2018',
 }];
 
 const fs = require('fs');
