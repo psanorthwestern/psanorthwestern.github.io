@@ -472,7 +472,7 @@ const publications = [{
   bibtex: `@article{johnson2015structural,
     title={Structural causes of bias in crowd-derived geographic information: Towards a holistic understanding},
     author={Johnson, Isaac and Hecht, Brent},
-    journal={Retrieved September},
+    journal={AAAI 2016 Spring Symposium on Observational Studies through Social Media and Other Human-Generated Content},
     volume={17},
     pages={2016},
     year={2015}
@@ -990,16 +990,18 @@ const publications = [{
 }, {
   bibtex: `@article{hechtrole,
     title={The Role of Human Geography in Collective Intelligence},
-    author={HECHT, BRENT and TERVEEN, LOREN}
+    author={Hecht, Brent and Terveen, Loren}
   }`,
   links: [{
     to: 'http://www.brenthecht.com/publications/ci2017_humangeography.pdf',
     display: 'PDF',
   }, ],
+specialShorthand: 'Collective Intelligence 2017',
 }, {
   bibtex: `@article{klein2017quality,
     title={Quality Standards, Service Orientation, and Power in Airbnb and Couchsurfing},
-    author={KLEIN, MAXIMILIAN and ZHAO, JINHAO and NI, JIAJUN and JOHNSON, ISAAC and HILL, BENJAMIN MAKO and ZHU, HAIYI},
+    author={Klein, Maximilian and Zhao, Jinhao and Ni, Jiajun and Johnson, Isaac and Hill, Benjamin Mako and Zhu, Haiyi},
+    journal={Proceedings of the ACM on Human-Computer Interaction},
     year={2017}
   }`,
   links: [{
