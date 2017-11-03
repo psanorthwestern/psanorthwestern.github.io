@@ -85,6 +85,7 @@ const publications = [{
     to: 'http://www-users.cs.umn.edu/~joh12041/Publications/DiningFamiliarity_CHI2017.pdf',
     display: 'PDF',
   }, ],
+  type: 'conference',
 }, {
   bibtex: `@inproceedings{wenig2017pharos,
     title={Pharos: improving navigation instructions on smartwatches by including global landmarks},
@@ -173,6 +174,7 @@ const publications = [{
     to: 'https://dl.acm.org/citation.cfm?id=3051140',
     display: 'PDF (ACM)',
   }, ],
+  type: 'panel',
 }, {
   bibtex: `@inproceedings{colley2017geography,
     title={The geography of Pok{\'e}mon GO: beneficial and problematic effects on places and movement},
@@ -208,6 +210,7 @@ const publications = [{
     to: 'https://drive.google.com/file/d/0B9n3jDBR7l_6b1ZRNndPZllPVGs/view?usp=sharing',
     display: 'Slides',
   }],
+  type: 'workshop',
 }, {
   bibtex: `@inproceedings{hall2017freedom,
     title={Freedom versus standardization: structured data generation in a peer production community},
@@ -272,7 +275,7 @@ const publications = [{
   bibtex: `@inproceedings{mcmahon2017substantial,
     title={The Substantial Interdependence of Wikipedia and Google: A Case Study on the Relationship Between Peer Production Communities and Information Technologies.},
     author={McMahon, Connor and Johnson, Isaac L and Hecht, Brent J},
-    booktitle={ICWSM},
+    booktitle={AAAI International Conference on Web and Social Media},
     pages={142--151},
     year={2017}
   }`,
@@ -287,7 +290,7 @@ const publications = [{
     display: 'Slides',
   },],
   specialCitation: `
-  McMahon, C.*, Johnson, I.*, and Hecht, B. The Substantial Interdependence of Wikipedia and Google - A Case Study on the Relationship between Peer Production Communities and Intelligent Technologies. AAAI International Conference on Web and Social Media 2017. * Indicates co-first authors
+  McMahon, C.*, Johnson, I.*, and Hecht, B. * Indicates co-first authors
   `,
 }, {
   bibtex: `@inproceedings{miller2017understanding,
@@ -709,6 +712,7 @@ const publications = [{
     to: 'https://dl.acm.org/citation.cfm?id=2519359',
     display: 'PDF (ACM)',
   }, ],
+  type: 'dissertation',
 }, {
   bibtex: `@inproceedings{hecht2012explanatory,
     title={Explanatory semantic relatedness and explicit spatialization for exploratory search},
