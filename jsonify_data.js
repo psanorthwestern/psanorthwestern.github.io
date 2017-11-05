@@ -305,7 +305,7 @@ const publications = [{
   bibtex: `@inproceedings{miller2017understanding,
     title={Understanding Emoji Ambiguity in Context: The Role of Text in Emoji-Related Miscommunication.},
     author={Miller, Hannah Jean and Kluver, Daniel and Thebault-Spieker, Jacob and Terveen, Loren G and Hecht, Brent J},
-    booktitle={AAAI International Conference on Web and Social Media 2017},
+    booktitle={AAAI International Conference on Web and Social Media},
     pages={152--161},
     year={2017}
   }`,
