@@ -52,7 +52,7 @@ const opportunitiesText = `
 We are currently looking for students excited about doing work at the intersection of human-computer interaction, spatial computing, and social computing. Undergraduate and graduate students who would like to join PSA Research should feel free to e-mail Brent directly. Please include a little bit about yourself (e.g., CV/resume, any past research experience, skills) and something about your research interests.`;
 
 const news = [
-  'June 2017: Brent Hecht selected as Chair of ACM Future of Computing Academcy',
+  'June 2017: Brent Hecht selected as Chair of ACM Future of Computing Academy',
   'May 2017: Three CHI Paper Presentations!',
   'Feb 2017: CSCW Presentation: Addressing article-as-a-concept assumption',
   'Jan 2017: Three CHI Papers Accepted!',
