@@ -72,26 +72,67 @@ const projects = [{
 }];
 
 const publications = [{
+  bibtex: `@inproceedings{diaz2018age,
+    title={Understanding Age-Related Bias in Sentiment Analysis},
+    author={},
+    booktitle={Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+    year={2018},
+    organization={ACM}
+  }`,
   links: [],
   type: 'conference',
   specialCitation: 'Diaz, M., Johnson, I., Lazar, A., Piper, A.M., and Gergle, D. Understanding Age-Related Bias in Sentiment Analysis. ACM Conference on Human Factors in Computing Systems 2018.'
 }, {
+  bibtex: `@inproceedings{tmp,
+    title={VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles},
+    author={},
+    booktitle={Proceedings of the 27th World Wide Web Conference (WWW 2018)},
+    year={2018},
+  }`,
   links: [],
   type: 'conference',
   specialCitation: 'WWW 2018: Lin, A.Y., Ford, J., Adar, E., and Hecht, B. (2018) VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles. Proceedings of the 27th World Wide Web Conference (WWW 2018). '
 }, {
+  bibtex: `@inproceedings{tmp,
+    title={Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia’s Relationships with Other Large-Scale Online Communities},
+    author={},
+    booktitle={Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+    year={2018},
+    organization={ACM}
+  }`,
   links: [],
   type: 'conference',
   specialCitation: 'ACM SIGCHI 2018: Vincent, N., Johnson, I., and Hecht, B. (2018) Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia’s Relationships with Other Large-Scale Online Communities. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
 }, {
+  bibtex: `@inproceedings{tmp,
+    title={Defining and Predicting the Localness of Volunteered Geographic Information using Ground Truth Data},
+    author={},
+    booktitle={Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+    year={2018},
+    organization={ACM}
+  }`,
   links: [],
   type: 'conference',
   specialCitation: 'ACM SIGCHI 2018: Kariryaa, A., Johnson, I., Schöning, J., and Hecht, B. (2018) Defining and Predicting the Localness of Volunteered Geographic Information using Ground Truth Data. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
 }, {
+  bibtex: `@inproceedings{tmp,
+    title=Distance and Attraction: Gravity Models for Geographic Content Production},
+    author={},
+    booktitle={Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+    year={2018},
+    organization={ACM}
+  }`,
   links: [],
   type: 'conference',
   specialCitation: 'ACM SIGCHI 2018: Thebault-Spieker, J., Halfaker, A., Terveen, L., and Hecht, B. (2018) Distance and Attraction: Gravity Models for Geographic Content Production. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
 }, {
+  bibtex: `@inproceedings{tmp,
+    title={Simulation Experiments on (the Absence of) Ratings Bias in Reputation Systems},
+    author={},
+    booktitle={Proceedings of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing},
+    year={2018},
+    organization={ACM}
+  }`,
   links: [{
     to: 'http://www.brenthecht.com/publications/cscw2018pacm_ratingsbias.pdf',
     display: 'PDF',
@@ -99,6 +140,13 @@ const publications = [{
   type: 'conference',
   specialCitation: 'ACM CSCW 2018 / PACM CSCW: Thebault-Spieker, J., Kluver, D., Klein, M.A., Halfaker, A., Hecht, B., Terveen, L., and Konstan, J. (2018) Simulation Experiments on (the Absence of) Ratings Bias in Reputation Systems. CSCW 2018 / PACM Computer-Supported Cooperative Work and Social Computing, 1 (1). New York : ACM Press.'
 }, {
+  bibtex: `@inproceedings{tmp,
+    title={The Sharing Economy in HCI: A Systematic Literature Review},
+    author={},
+    booktitle={Proceedings of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing},
+    year={2018},
+    organization={ACM}
+  }`,
   links: [{
     to: 'http://www.brenthecht.com/publications/cscw2018pacm_sharingeconomylitreview.pdf',
     display: 'PDF',
@@ -109,10 +157,11 @@ const publications = [{
   type: 'conference',
   specialCitation: 'ACM CSCW 2018 / PACM CSCW: Dillahunt, T., Wang, X., Wheeler, E., Cheng, H.F., Hecht, B., and Zhu, H. (2018) The Sharing Economy in HCI: A Systematic Literature Review. CSCW 2018 / PACM Computer-Supported Cooperative Work and Social Computing, 1 (1). New York : ACM Press.'
 }, {
-  bibtex: `@article{thebault2018geographic,
+  bibtex: `@inproceedings{thebault2018geographic,
     title={Geographic Biases are ‘Born, not Made’: Exploring Contributors’ Spatiotemporal Behavior in OpenStreetMap},
     author={Thebault-Spieker, Jacob and Hecht, Brent and Terveen, Loren},
-    year={2018}
+    year={2018},
+    booktitle={The 2018 International ACM Conference on Supporting Groupwork (ACM GROUP 2018)},
   }`,
   links: [{
     to: 'http://www.brenthecht.com/publications/group2018_spatialfootprints.pdf',
