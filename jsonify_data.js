@@ -161,7 +161,7 @@ const publications = [{
     title={Geographic Biases are ‘Born, not Made’: Exploring Contributors’ Spatiotemporal Behavior in OpenStreetMap},
     author={Thebault-Spieker, Jacob and Hecht, Brent and Terveen, Loren},
     year={2018},
-    booktitle={The 2018 International ACM Conference on Supporting Groupwork (ACM GROUP 2018)},
+    booktitle={The 2018 International ACM Conference on Supporting Group Work},
   }`,
   links: [{
     to: 'http://www.brenthecht.com/publications/group2018_spatialfootprints.pdf',
