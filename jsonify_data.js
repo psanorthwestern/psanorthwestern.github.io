@@ -34,9 +34,6 @@ const undergradStudents = [{
 }];
 
 const collaborators = [{
-  name: 'GroupLens @ University of Minnesota',
-  link: 'https://grouplens.org/',
-}, {
   name: 'HCI Bremen @ University of Bremen',
   link: 'http://hci.uni-bremen.de/',
 }, {
@@ -75,6 +72,54 @@ const projects = [{
 }];
 
 const publications = [{
+  links: [],
+  type: 'conference',
+  specialCitation: 'Diaz, M., Johnson, I., Lazar, A., Piper, A.M., and Gergle, D. Understanding Age-Related Bias in Sentiment Analysis. ACM Conference on Human Factors in Computing Systems 2018.'
+}, {
+  links: [],
+  type: 'conference',
+  specialCitation: 'WWW 2018: Lin, A.Y., Ford, J., Adar, E., and Hecht, B. (2018) VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles. Proceedings of the 27th World Wide Web Conference (WWW 2018). '
+}, {
+  links: [],
+  type: 'conference',
+  specialCitation: 'ACM SIGCHI 2018: Vincent, N., Johnson, I., and Hecht, B. (2018) Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia’s Relationships with Other Large-Scale Online Communities. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
+}, {
+  links: [],
+  type: 'conference',
+  specialCitation: 'ACM SIGCHI 2018: Kariryaa, A., Johnson, I., Schöning, J., and Hecht, B. (2018) Defining and Predicting the Localness of Volunteered Geographic Information using Ground Truth Data. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
+}, {
+  links: [],
+  type: 'conference',
+  specialCitation: 'ACM SIGCHI 2018: Thebault-Spieker, J., Halfaker, A., Terveen, L., and Hecht, B. (2018) Distance and Attraction: Gravity Models for Geographic Content Production. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
+}, {
+  links: [{
+    to: 'http://www.brenthecht.com/publications/cscw2018pacm_ratingsbias.pdf',
+    display: 'PDF',
+  },],
+  type: 'conference',
+  specialCitation: 'ACM CSCW 2018 / PACM CSCW: Thebault-Spieker, J., Kluver, D., Klein, M.A., Halfaker, A., Hecht, B., Terveen, L., and Konstan, J. (2018) Simulation Experiments on (the Absence of) Ratings Bias in Reputation Systems. CSCW 2018 / PACM Computer-Supported Cooperative Work and Social Computing, 1 (1). New York : ACM Press.'
+}, {
+  links: [{
+    to: 'http://www.brenthecht.com/publications/cscw2018pacm_sharingeconomylitreview.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://deepblue.lib.umich.edu/data/concern/generic_works/h989r350t',
+    display: 'Dataset',
+  },],
+  type: 'conference',
+  specialCitation: 'ACM CSCW 2018 / PACM CSCW: Dillahunt, T., Wang, X., Wheeler, E., Cheng, H.F., Hecht, B., and Zhu, H. (2018) The Sharing Economy in HCI: A Systematic Literature Review. CSCW 2018 / PACM Computer-Supported Cooperative Work and Social Computing, 1 (1). New York : ACM Press.'
+}, {
+  bibtex: `@article{thebault2018geographic,
+    title={Geographic Biases are ‘Born, not Made’: Exploring Contributors’ Spatiotemporal Behavior in OpenStreetMap},
+    author={Thebault-Spieker, Jacob and Hecht, Brent and Terveen, Loren},
+    year={2018}
+  }`,
+  links: [{
+    to: 'http://www.brenthecht.com/publications/group2018_spatialfootprints.pdf',
+    display: 'PDF',
+  }, ],
+  type: 'conference',
+}, {
   bibtex: `@inproceedings{johnson2017stranger,
     title={Stranger Searching in a Strange Land: The Impact of Familiarity on Local Search},
     author={Johnson, Isaac and Schwanda Sosik, Victoria and Ballard, Kacey},
