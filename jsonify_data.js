@@ -42,7 +42,7 @@ const collaborators = [{
 }];
 
 const about = `
-The People, Space, and Algorithms (PSA) Research Group is a lab at Northwestern University. Our goal is to ensure that computing has a net positive impact on the world, and our research typically lies at the intersection of social computing, spatial computing, and human-computer interaction. We have particular expertise in understanding the relationships between algorithms and society and in building technologies to improve those relationships.
+The People, Space, and Algorithms (PSA) Research Group is a lab at Northwestern University. Our goal is to ensure that computing has a net positive impact on the world, and our research typically lies at the intersection of social computing, spatial computing, and human-computer interaction. We have particular expertise in (1) understanding the relationships between algorithms and society and (2) building technologies to improve those relationships.
 `;
 
 const opportunitiesText = `
