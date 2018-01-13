@@ -49,11 +49,11 @@ const opportunitiesText = `
 We are currently looking for students excited about doing work at the intersection of human-computer interaction, spatial computing, and social computing. Undergraduate and graduate students who would like to join PSA Research should feel free to e-mail Brent directly. Please include a little bit about yourself (e.g., CV/resume, any past research experience, skills) and something about your research interests.`;
 
 const news = [
-  'Jan 2018: Allen and Isaac head off to research internships at Microsoft and Google, respectively.',
+  'Jan 2018: Ph.D. students Allen and Isaac head off to research internships at Microsoft and Google, respectively.',
   'Dec 2017: New WWW paper accepted.',
-  'Dec 2017: Three new ACM SIGCHI papers accepted.',
+  'Dec 2017: Five new ACM SIGCHI papers accepted.',
   'Sept 2017: Nick and Hanlin formally join us as Ph.D. students!',
-  'Aug 2017: Two new ACM CSCW papers accepted.',
+  'Aug 2017: Three new ACM CSCW papers accepted.',
   'June 2017: Brent selected as Chair of ACM Future of Computing Academy',
 ];
 
