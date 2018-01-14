@@ -843,7 +843,7 @@ const publications = [{
     display: 'PDF (ACM)',
   }, ],
   type: 'dissertation',
-}, */{
+}, *//*{
   bibtex: `@inproceedings{hecht2012explanatory,
     title={Explanatory semantic relatedness and explicit spatialization for exploratory search},
     author={Hecht, Brent and Carton, Samuel H and Quaderi, Mahmood and Sch{\"o}ning, Johannes and Raubal, Martin and Gergle, Darren and Downey, Doug},
@@ -857,7 +857,7 @@ const publications = [{
     display: 'PDF',
   }, ],
   type: 'conference',
-},/* {
+},*//* {
   bibtex: `@article{hecht2012searchbuddies,
     title={SearchBuddies: Bringing Search Engines into the Conversation.},
     author={Hecht, Brent J and Teevan, Jaime and Morris, Meredith Ringel and Liebling, Daniel J},
@@ -914,7 +914,7 @@ const publications = [{
     display: 'Google Patents',
   }, ],
   type: 'patent',
-}, */{
+}, *//*{
   bibtex: `@inproceedings{hecht2011geographic,
     title={Geographic human-computer interaction},
     author={Hecht, Brent and Sch{\"o}ning, Johannes and Erickson, Thomas and Priedhorsky, Reid},
@@ -928,7 +928,7 @@ const publications = [{
     display: 'PDF',
   }, ],
   type: 'extended abstract',
-}, /*{
+}, *//*{
   bibtex: `@inproceedings{hecht2011tweets,
     title={Tweets from Justin Bieber's heart: the dynamics of the location field in user profiles},
     author={Hecht, Brent and Hong, Lichan and Suh, Bongwon and Chi, Ed H},
