@@ -74,7 +74,7 @@ const projects = [{
 const publications = [{
   bibtex: `@inproceedings{diaz2018age,
     title={Understanding Age-Related Bias in Sentiment Analysis},
-    author={},
+    author={Diaz, Mark and Johnson, Isaac and Lazar, A. and Piper, A.M. and Gergle, Darren},
     booktitle={Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
     year={2018},
     organization={ACM}
@@ -1163,7 +1163,6 @@ specialShorthand: 'Collective Intelligence 2017',
     to: 'http://www-users.cs.umn.edu/~joh12041/Publications/MoneyAndTheSharingEconomy.pdf',
     display: 'Preprint PDF',
   }, ],
-  specialShorthand: 'CSCW 2018',
 }];
 
 const fs = require('fs');
