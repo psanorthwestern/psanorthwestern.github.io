@@ -123,7 +123,7 @@ const publications = [{
   links: [{
     to: 'http://www.brenthecht.com/publications/chi2018_localness.pdf',
     display: 'PDF',
-  },,],
+  },],
   type: 'conference',
   specialCitation: 'ACM SIGCHI 2018: Kariryaa, A., Johnson, I., Schöning, J., and Hecht, B. (2018) Defining and Predicting the Localness of Volunteered Geographic Information using Ground Truth Data. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
 }, {
