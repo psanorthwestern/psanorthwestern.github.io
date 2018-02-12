@@ -57,19 +57,19 @@ const news = [
   'June 2017: Brent selected as Chair of ACM Future of Computing Academy',
 ];
 
-const projects = [{
-  name: 'Tweet Geolocation',
-  image: '/static/geolocation.png',
-  description: 'Bias in social-media-based algorithms derives not just from population biases in the underlying data but also from structural biases in the design of algorithms.',
-}, {
-  name: 'Routing Algorithmic Externalities',
-  image: '/static/routing_externalities.png',
-  description: 'Changes to fastest-path vehicle routing (e.g. incorporating notions of scenic-ness, safety, or simplicity) could have unintended side-effects both individually on the routes and in aggregate on neighborhoods.',
-}, {
-  name: 'Death by GPS',
-  image: '/static/deathbygps.png',
-  description: 'Driving accidents attributed to problems with GPS navigation derive from a wide variety of sources such as the failure to recognize driver context in suggesting routes and map-matching algorithms.',
-}];
+// const projects = [{
+//   name: 'Tweet Geolocation',
+//   image: '/static/geolocation.png',
+//   description: 'Bias in social-media-based algorithms derives not just from population biases in the underlying data but also from structural biases in the design of algorithms.',
+// }, {
+//   name: 'Routing Algorithmic Externalities',
+//   image: '/static/routing_externalities.png',
+//   description: 'Changes to fastest-path vehicle routing (e.g. incorporating notions of scenic-ness, safety, or simplicity) could have unintended side-effects both individually on the routes and in aggregate on neighborhoods.',
+// }, {
+//   name: 'Death by GPS',
+//   image: '/static/deathbygps.png',
+//   description: 'Driving accidents attributed to problems with GPS navigation derive from a wide variety of sources such as the failure to recognize driver context in suggesting routes and map-matching algorithms.',
+// }];
 
 const publications = [{
   bibtex: `@inproceedings{diaz2018age,
@@ -79,7 +79,10 @@ const publications = [{
     year={2018},
     organization={ACM}
   }`,
-  links: [],
+  links: [{
+    to: 'http://users.eecs.northwestern.edu/~ilj2219/Publications/AgeBiasSentimentAnalysis_CHI18.pdf',
+    display: 'PDF',
+  },],
   type: 'conference',
   specialCitation: 'Diaz, M., Johnson, I., Lazar, A., Piper, A.M., and Gergle, D. Understanding Age-Related Bias in Sentiment Analysis. ACM Conference on Human Factors in Computing Systems 2018.'
 }, {
@@ -100,7 +103,13 @@ const publications = [{
     year={2018},
     organization={ACM}
   }`,
-  links: [],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/chi2018_wikipediavaluetoonlinecommunities.pdf',
+    display: 'PDF',
+  }, {
+    to: 'https://github.com/nickmvincent/ugc-val-est',
+    display: 'Code',
+  },],
   type: 'conference',
   specialCitation: 'ACM SIGCHI 2018: Vincent, N., Johnson, I., and Hecht, B. (2018) Examining Wikipedia With a Broader Lens: Quantifying the Value of Wikipedia’s Relationships with Other Large-Scale Online Communities. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
 }, {
@@ -111,7 +120,10 @@ const publications = [{
     year={2018},
     organization={ACM}
   }`,
-  links: [],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/chi2018_localness.pdf',
+    display: 'PDF',
+  },,],
   type: 'conference',
   specialCitation: 'ACM SIGCHI 2018: Kariryaa, A., Johnson, I., Schöning, J., and Hecht, B. (2018) Defining and Predicting the Localness of Volunteered Geographic Information using Ground Truth Data. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
 }, {
@@ -122,7 +134,10 @@ const publications = [{
     year={2018},
     organization={ACM}
   }`,
-  links: [],
+  links: [{
+    to: 'http://www.brenthecht.com/publications/chi2018_gravitymodels.pdf',
+    display: 'PDF',
+  }],
   type: 'conference',
   specialCitation: 'ACM SIGCHI 2018: Thebault-Spieker, J., Halfaker, A., Terveen, L., and Hecht, B. (2018) Distance and Attraction: Gravity Models for Geographic Content Production. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018) . New York : ACM Press.'
 }, {
@@ -1174,7 +1189,6 @@ const data = {
   collaborators,
   about,
   news,
-  projects,
   opportunitiesText,
 };
 
